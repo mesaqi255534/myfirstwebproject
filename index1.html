@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <title>Victoria's Journal</title>
+    <style>
+        body {
+            background-color: #e0f2f1;
+            font-family: "Courier New", monospace;
+        }
+        /* Main background layout wrapper*/
+        .journal-wrapper {
+            background-color: #ffffff;
+            width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        /* Top branding element block */
+        .header-box {
+            background-color: #a7ffeb;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .header-title {
+            color: #00bfa5;
+            font-weight: bold;
+            font-size: 32px;
+            text-align: right;
+            margin: 0;
+        }
+        .header-sub {
+            color: #00bfa5;
+            text-align: right;
+            margin: 5px 0 0 0;
+        }
+        /* Left sidebar section block container setup */
+        .sidebar {
+            float: left;
+            width: 22%;
+            background-color: #26a69a;
+            border: 4px solid #00796b;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .sidebar h3 {
+            color: #a7ffeb;
+            font-size: 28px;
+            margin-top: 0;
+        }
+        .sidebar ul {
+            color: #ff5252;
+            padding-left: 20px;
+        }
+        /* Main content layout elements wrapper right section */
+        .main-content {
+            float: right;
+            width: 70%;
+        }
+        /* Individual daily content feed blocks setup */
+        .entry-box {
+            border: 4px solid #b2dfdb;
+            background-color: #e0f2f1;
+            padding: 15px;
+            margin-bottom: 20px;
+            overflow: auto; /* Ensures content layout tracking with floating images */
+        }
+        .entry-title {
+            color: #009688;
+            font-size: 24px;
+            margin-top: 0;
+        }
+        /* Custom dotted style configuration applied to date text inline layout elements */
+        .entry-date {
+            text-decoration-line: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: blue;
+            text-decoration-thickness: 2px;
+        }
+        .entry-box p {
+            color: #a1887f;
+            line-height: 1.5;
+        }
+        .entry-box img {
+            float: right;
+            width: 150px;
+            margin: 0 0 10px 15px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+
+<div class="journal-wrapper">
+
+    <!-- Header Block Component -->
+    <div class="header-box">
+        <h1 class="header-title">Victoria's Journal</h1>
+        <p class="header-sub">So fresh and so clean</p>
+    </div>
+
+    <!-- Left Sidebar Dynamic Blocks Grid -->
+    <div class="sidebar">
+        <h3>Friends</h3>
+        <ul>
+            <li>390 Buddies</li>
+            <li><strong>Big Will</strong></li>
+            <li>Conan the Librarian</li>
+        </ul>
+    </div>
+
+    <!-- Main Content Stream Container Block Grid -->
+    <div class="main-content">
+       
+        <!-- Entry Post Block #1 -->
+        <div class="entry-box">
+            <h2 class="entry-title">
+                <span class="entry-date">04/09/08:</span> Spatulas
+            </h2>
+            <img src="image4.jpg" alt="Spatula Image">
+            <p>
+                Yesterday, I went to the store and got some much needed spatulas!
+                (what better way to say I love myself than to buy myself a spatula?)
+            </p>
+        </div>
+
+       
+        <div class="entry-box">
+            <h2 class="entry-title">
+                <span class="entry-date">04/08/08:</span> Cookie Cupcakes
+            </h2>
+            <img src="image4.jpg" alt="Cupcakes Image">
+            <p>
+                My favorite cartoon character is cookie, and my favorite dessert is cupcakes.
+                So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said,
+                "Sometimes me think what is love, and then me think love is what cookie is for. Me give up the last cookie for you."
+                I wonder if the same applies for the cupcakes? (If so, I don't think I can ever love ANYONE!)
+            </p>
+        </div>
+       
+    </div>
+
+</div>
+
+</body>
+</html
